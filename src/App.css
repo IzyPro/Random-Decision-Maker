@@ -1,0 +1,95 @@
+html {
+  font-size: calc(10px + 2vmin);
+  font-family: 'Montserrat', sans-serif;
+}
+.App, body {
+  text-align: center;
+  background-color: #ffffff;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+.body {
+  padding: 1em;
+}
+
+.brand{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 2em;
+}
+.App-logo {
+  height: 2em;
+  pointer-events: none;
+}
+.LogoText{
+  color: #61dafb;
+  margin-left: 0.5em;
+}
+
+
+.contentBody{
+  background-color: #282c34;
+  border-radius: 1em;
+  justify-self: center;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  text-align: center;
+  padding: 1em;
+}
+input{
+  width: 95%;
+  height: 2em;
+  border-radius: 0.3em;
+  border: none;
+  margin: 0.3em;
+  padding: auto;
+  margin-bottom: 1em;
+  padding: 0.5em;
+}
+.questionInput{
+  width: 95%;
+  padding: 0.7em;
+}
+button{
+  background-color: #61dafb;
+  border: none;
+  padding: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  font-weight: bold;
+  font-size: 1em;
+}
+Link{
+  text-decoration: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media only screen and (min-width: 900px){
+  .questionInput{
+    width: 60%;
+  }
+  input{
+    width: auto;
+  }
+}
